@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "833896600599",
+    "project_id": "quizado-8b0e8",
+    "storage_bucket": "quizado-8b0e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833896600599:android:0959d848b74971e0bf3852",
+        "android_client_info": {
+          "package_name": "com.heathkev.quizado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833896600599-75h2464b5ei00h31d4duj4js6p2irpd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsfzgAarF1Y16-OrhACzS3aFX15s4UYMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833896600599-75h2464b5ei00h31d4duj4js6p2irpd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

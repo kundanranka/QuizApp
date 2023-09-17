@@ -304,7 +304,7 @@ class QuizViewModel @ViewModelInject constructor(
     }
 
     private fun pickQuestions() {
-        for (i in 0..totalQuestionToAnswer.toInt()) {
+        for (i in 0 .. totalQuestionToAnswer.toInt() - 1) {
             val randomNumber = getRandomInteger(allQuestionList.size)
             questionsToAnswer.add(allQuestionList.get(randomNumber))
             allQuestionList.removeAt(randomNumber)

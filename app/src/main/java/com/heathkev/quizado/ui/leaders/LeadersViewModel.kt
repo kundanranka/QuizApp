@@ -64,6 +64,12 @@ class LeadersViewModel @ViewModelInject constructor(
             if(!resultItem.name.isNullOrEmpty()) resultsList.add(resultItem)
         }
 
+        for ( i in 1 .. 3){
+            if(resultsList.count() > i){
+                continue
+            }
+            resultsList.add(Leaderboard());
+        }
         _first.postValue(resultsList[0])
         _second.postValue(resultsList[1])
         _third.postValue(resultsList[2])
